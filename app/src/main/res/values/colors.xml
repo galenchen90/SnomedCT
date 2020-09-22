@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4dd0e1</color>
+    <color name="colorPrimaryDark">#4dd0e1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="CAcolor">#ca2655</color>
+    <color name="PAcolor">#9b4dcc</color>
+    <color name="FScolor">#9207e9</color>
+    <color name="ISAcolor">#122dc7</color>
+
+
+
+
+</resources>

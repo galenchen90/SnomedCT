@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="4dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="?android:attr/actionBarSize">
+
+
+    <TextView
+        android:id="@+id/title_in_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:text="SnomedCT"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/share_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/share_icon"
+            android:tint="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/add_tofavoriate_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/favorite_icon"
+            android:tint="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
